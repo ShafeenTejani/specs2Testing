@@ -1,4 +1,3 @@
-
 object Main extends App {
-  println("hello sbt.g8")
+  println("hello world")
 }
