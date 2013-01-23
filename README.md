@@ -20,4 +20,6 @@ To do this:
   specs2Testing> time sbt test
   ```
 
-The image [here](http://i.imgur.com/v4yucmc.jpg) shows a graph comparing runtimes against the number of test cases in the class. The runtime appears to increase exponentially with the number of test cases!
+The image below shows a graph comparing runtimes against the number of test cases in the class. The runtime appears to increase exponentially with the number of test cases!
+
+![specs2test](https://f.cloud.github.com/assets/1223541/90627/0147eeb6-657d-11e2-9973-2b81da65b39c.jpg)
