@@ -10,6 +10,10 @@ class Specs2Spec extends Specification {
     "Given 1"      ^ one     ^
     "When I add 1" ^ plusOne ^
     "Then I get 2" ^ isTwo   ^
+  end ^
+    "Given 1"      ^ one     ^
+    "When I add 1" ^ plusOne ^
+    "Then I get 2" ^ isTwo   ^
   end
 
   object one extends Given[Int] {
